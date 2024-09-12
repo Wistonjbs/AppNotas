@@ -1,0 +1,202 @@
+* {
+    font-family: "Lexend", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #f2f2f2;
+    /* border: 1px red solid;  */
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(Assets/img/background.png);
+    height: 100vh;
+    overflow: hidden;
+    background-size:cover ; 
+    background-repeat: no-repeat;
+}
+hr{
+    background-color: #b3b3b330;
+    border: transparent;
+    height: 2px;
+    margin-top: 2.5px;
+    margin-bottom: 7px;
+}
+.organiser_box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 100px 100px
+}
+.txt_tittle h1{
+    margin-top: -30px;
+    font-size: 143px;
+    font-weight: 700;
+}
+.txt_tittle h2{
+    margin-bottom: -25px;
+    font-size: 60px;
+    margin-top: 30px;
+}    
+.txt_bttn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    justify-content: space-between;
+}
+.txt_bttn h3{
+    margin: 10px;
+}
+.bttn{
+    font-weight: 300;
+    width: 200px;
+    font-size: 16px;
+    background-color: transparent;
+    border-color: #f2f2f2;
+    border: 4px solid; 
+    border-radius: 30px;
+    padding: 8px 30px;
+    margin: 5px;
+    transition: background .4s ease-in, color .9s ease-in ;
+}
+.bttn:hover{
+    font-weight: 400;
+    width: 210px;
+    font-size: 16px;
+    background-color: transparent;
+    border-color: #f2f2f26a;
+}
+.Forms_organiserBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 5px solid #f2f2f286;
+    border-radius: 10px;
+    padding: 34px;
+    text-align: center;
+    box-shadow: 0px 0px 25px #222;
+    backdrop-filter: blur(20px); 
+    height: 65%;
+    width: 30%;
+}
+.forms h2{
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.email, .password, .remindme, .username, .confirmpassword{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 7px;
+    gap: 15px;
+}
+.textDecoration{
+    text-decoration: underline;
+    color: #d4d4d4;;
+}
+.txtArea{
+    background-color: transparent;
+    border: 3px solid;
+    border-radius: 20px;
+    width: 250px;
+    height: 35px;
+}
+.checkbox{
+    height: 15px;
+    width: 15px;
+    background-color: transparent;
+    border: 2px solid #f2f2f2 ;
+    border-radius: 5px;
+}
+.Menu_Organiser{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.Menu_Organiser h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.notes_organiser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    border: #f2f2f27a 5px solid;
+    border-radius: 20px;
+    width: 40%;
+    height: 85%;
+    padding: 40px 72px;
+    backdrop-filter: blur(20px);
+}
+.Scroller_box{
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.Scroller_box::-webkit-scrollbar{
+    width: 2.5px;
+} 
+.Scroller_box::-webkit-scrollbar-track{
+    background: transparent;
+}
+.Scroller_box:hover::-webkit-scrollbar-track{
+    background: #6d6d6d30;
+}
+.Scroller_box::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    transition: background-color 10s ease;
+} 
+.Scroller_box:hover::-webkit-scrollbar-thumb {
+    background-color: #f2f2f250;
+    border-radius: 10px;
+} 
+.Notes_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 10px;
+}
+.Notes{
+    border: #1e1e1e  2.5px solid ;
+    border-radius: 10px;
+    width: 148px;
+    height: 132px;
+    padding: 10px 10px;
+    background-color: #741435;
+    box-shadow: #1e1e1e;
+}
+.Notes h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+.Notes p{
+    font-size: 14px;
+    font-weight: 300
+}
