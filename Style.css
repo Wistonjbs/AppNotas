@@ -89,8 +89,8 @@ hr{
     text-align: center;
     box-shadow: 0px 0px 25px #222;
     backdrop-filter: blur(20px); 
-    height: 65%;
-    width: 30%;
+    /* height: 65%; */
+    /* width: 30%; */
 }
 .forms h2{
     font-size: 32px;
@@ -101,12 +101,15 @@ hr{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+    width: 100%;
 }
 .email, .password, .remindme, .username, .confirmpassword{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+    align-items: center;
     margin: 7px;
     gap: 15px;
 }
